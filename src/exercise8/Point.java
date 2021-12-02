@@ -39,7 +39,7 @@ public class Point {
 
     public Point createNewTranslatedPoint(double xDelta, double yDelta) {
         // Create new point which is translated relative to this point
-        Point tochka = new Point(otherX, otherY);
+        Point tochka = new Point();
         tochka.x = x + xDelta;
         tochka.y = y + yDelta;
         
